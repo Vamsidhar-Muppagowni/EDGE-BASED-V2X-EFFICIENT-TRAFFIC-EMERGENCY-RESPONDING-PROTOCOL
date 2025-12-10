@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+    <!-- Red circle POIs (inward offset) -->
+    <poi id="poi_bot_left"  x="30"  y="20" color="255,0,0" layer="0" width="4" height="4" type="100"/>
+    <poi id="poi_left_mid"  x="30"  y="120" color="255,0,0" layer="0" width="4" height="4" type="100"/>
+    <poi id="poi_top_right" x="200" y="20"  color="255,0,0" layer="0" width="4" height="4" type="100"/>
+    <poi id="poi_bot_right" x="200" y="180" color="255,0,0" layer="0" width="4" height="4" type="100"/>
+</additional>

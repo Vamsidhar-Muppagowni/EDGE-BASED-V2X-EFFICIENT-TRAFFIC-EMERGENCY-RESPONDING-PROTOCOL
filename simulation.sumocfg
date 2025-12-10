@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="output.net.xml"/>             <!-- Compiled network -->
+        <route-files value="vehicles.rou.xml"/>        <!-- Vehicle routes -->
+        <additional-files value="pois.poi.xml"/>       <!-- Your POIs, detectors, etc. -->
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="100"/>
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="viewsettings.xml"/>
+    </gui_only>
+</configuration>

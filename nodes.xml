@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <!-- Main grid nodes -->
+    <node id="A" x="0" y="0" type="priority"/>
+    <node id="B" x="100" y="0" type="priority"/>
+    <node id="C" x="200" y="0" type="priority"/>
+    <node id="D" x="0" y="100" type="priority"/>
+    <node id="E" x="100" y="100" type="priority"/>
+    <node id="F" x="200" y="100" type="priority"/>
+    <node id="G" x="0" y="200" type="priority"/>
+    <node id="H" x="100" y="200" type="priority"/>
+    <node id="I" x="200" y="200" type="priority"/>
+
+    <!-- Parking nodes for ambulances -->
+    <node id="A_parking" x="-20" y="0" type="priority"/>
+    <node id="D_parking" x="-20" y="100" type="priority"/>
+    <node id="H_parking" x="100" y="220" type="priority"/>
+</nodes>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Original Horizontal edges -->
+    <edge id="A_B" from="A" to="B" numLanes="1" speed="13.89"/>
+    <edge id="B_C" from="B" to="C" numLanes="1" speed="13.89"/>
+    <edge id="D_E" from="D" to="E" numLanes="1" speed="13.89"/>
+    <edge id="E_F" from="E" to="F" numLanes="1" speed="13.89"/>
+    <edge id="G_H" from="G" to="H" numLanes="1" speed="13.89"/>
+    <edge id="H_I" from="H" to="I" numLanes="1" speed="13.89"/>
+
+    <!-- Original Vertical edges -->
+    <edge id="A_D" from="A" to="D" numLanes="1" speed="13.89"/>
+    <edge id="D_G" from="D" to="G" numLanes="1" speed="13.89"/>
+    <edge id="B_E" from="B" to="E" numLanes="1" speed="13.89"/>
+    <edge id="E_H" from="E" to="H" numLanes="1" speed="13.89"/>
+    <edge id="C_F" from="C" to="F" numLanes="1" speed="13.89"/>
+    <edge id="F_I" from="F" to="I" numLanes="1" speed="13.89"/>
+
+    <!-- Reverse Horizontal edges -->
+    <edge id="B_A" from="B" to="A" numLanes="1" speed="13.89"/>
+    <edge id="C_B" from="C" to="B" numLanes="1" speed="13.89"/>
+    <edge id="E_D" from="E" to="D" numLanes="1" speed="13.89"/>
+    <edge id="F_E" from="F" to="E" numLanes="1" speed="13.89"/>
+    <edge id="H_G" from="H" to="G" numLanes="1" speed="13.89"/>
+    <edge id="I_H" from="I" to="H" numLanes="1" speed="13.89"/>
+
+    <!-- Reverse Vertical edges -->
+    <edge id="D_A" from="D" to="A" numLanes="1" speed="13.89"/>
+    <edge id="G_D" from="G" to="D" numLanes="1" speed="13.89"/>
+    <edge id="E_B" from="E" to="B" numLanes="1" speed="13.89"/>
+    <edge id="H_E" from="H" to="E" numLanes="1" speed="13.89"/>
+    <edge id="F_C" from="F" to="C" numLanes="1" speed="13.89"/>
+    <edge id="I_F" from="I" to="F" numLanes="1" speed="13.89"/>
+
+    <!-- Optional: Parking edges for ambulances -->
+    <edge id="A_B_parking" from="A_parking" to="A" numLanes="1" speed="5.0"/>
+    <edge id="D_G_parking" from="D_parking" to="D" numLanes="1" speed="5.0"/>
+    <edge id="H_I_parking" from="H_parking" to="H" numLanes="1" speed="5.0"/>
+</edges>
